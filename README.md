@@ -6,7 +6,7 @@ Contains snippets from Atom.
 
 ![CoffeeScript snippets in action](images/screen.gif)
 
-- `cla` creates a new class.
+- `cla` creates a new class
 - `el` creates an else block
 - `elif` creates an else-if block
 - `error` creates an error throw statement
@@ -22,6 +22,14 @@ Contains snippets from Atom.
 - `try` creates a try-catch block
 - `warn` creates a console warn call `console.warn value`
 - `info` creates a console info call `console.info value`
+
+## Installation
+- Open Visual Studio Code and launch the command palette
+- Type in `ext install coffeescript-snippets` and select the package
+- Restart Visual Studio Code
+
+## Contributing
+Feel free to send pull requests!
 
 ## License
 MIT
