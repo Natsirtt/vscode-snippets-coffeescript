@@ -1,0 +1,28 @@
+{
+  "name": "coffeescript-snippets",
+  "displayName": "CoffeeScript",
+  "description": "CoffeeScript code snippets (+ snippets from Atom)",
+  "version": "0.1.0",
+  "author": "Ronald Loyko <hello@ronaldloyko.com>",
+  "publisher": "ronaldloyko",
+  "icon": "images/logo.png",
+  "categories": [
+    "Snippets"
+  ],
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "license": "MIT",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "coffeescript",
+        "path": "./snippets/coffeescript.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldloyko/vscode-snippets-coffeescript.git"
+  }
+}

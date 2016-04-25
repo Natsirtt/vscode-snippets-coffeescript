@@ -1,0 +1,138 @@
+[
+  {
+    "class": {
+      "description": "New class",
+      "prefix": "cla",
+      "body": [
+        "class ${1:ClassName} ${2:extends ${3:Ancestor} }",
+        "",
+        "\tconstructor(${4:args}) ->",
+        "\t\t${5:# body...}"
+      ]
+    },
+    "else": {
+      "description": "Else block",
+      "prefix": "el",
+      "body": [
+        "else",
+        "\t${1:# body...}"
+      ]
+    },
+    "elseif": {
+      "description": "Else-If block",
+      "prefix": "elif",
+      "body": [
+        "else if ${1:condition}",
+        "\t${2:# body...}"
+      ]
+    },
+    "error": {
+      "description": "Throw error",
+      "prefix": "error",
+      "body": [
+        "throw new Error ${1:'message'}"
+      ]
+    },
+    "forin": {
+      "description": "Array iteration",
+      "prefix": "fora",
+      "body": [
+        "for ${1:element} in ${2:array}",
+        "\t${3:# body...}"
+      ]
+    },
+    "forof": {
+      "description": "Object iteration",
+      "prefix": "foro",
+      "body": [
+        "for ${1:key}, ${2:value} of ${3:object}",
+        "\t${3:# body...}"
+      ]
+    },
+    "forinby": {
+      "description": "Range iteration",
+      "prefix": "forr",
+      "body": [
+        "for ${1:name} in [${2:start}..${3:finish}] by ${4:step}",
+        "\t${3:# body...}"
+      ]
+    },
+    "function": {
+      "description": "Function",
+      "prefix": "f",
+      "body": [
+        "(${1:args}) ->",
+        "\t${2:# body...}"
+      ]
+    },
+    "if": {
+      "description": "If block",
+      "prefix": "if",
+      "body": [
+        "if ${1:condition}",
+        "\t${2:# body...}"
+      ]
+    },
+    "ifternary": {
+      "description": "Ternary if",
+      "prefix": "ift",
+      "body": [
+        "if ${1:condition} then ${2:value} else ${3:other}"
+      ]
+    },
+    "keyvalue": {
+      "description": "Key value pair",
+      "prefix": "kv",
+      "body": [
+        "${1:key}: ${2:value}"
+      ]
+    },
+    "consolelog": {
+      "description": "Log to console",
+      "prefix": "log",
+      "body": [
+        "console.log ${1:value}"
+      ]
+    },
+    "require": {
+      "description": "Require statement",
+      "prefix": "req",
+      "body": [
+        "${fs} = require '${fs}"
+      ]
+    },
+    "switch": {
+      "description": "Switch block",
+      "prefix": "swi",
+      "body": [
+        "switch ${1:object}",
+        "\twhen ${2:value}",
+        "\t\t${3:# body...}"
+      ]
+    },
+    "try": {
+      "description": "Try-Catch block",
+      "prefix": "try",
+      "body": [
+        "try",
+        "\t${1}",
+        "catch ${2:error}",
+        "\t${3}"
+      ]
+    },
+    "consolewarn": {
+      "description": "Output warning in console",
+      "prefix": "warn",
+      "body": [
+        "console.warn ${1:value}"
+      ]
+    },
+    "consoleinfo": {
+      "description": "Output info in console",
+      "prefix": "info",
+      "body": [
+        "console.info ${1:value}"
+      ]
+    }
+  }
+]
