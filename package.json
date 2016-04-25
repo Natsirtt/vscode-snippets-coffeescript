@@ -2,7 +2,7 @@
   "name": "coffeescript-snippets",
   "displayName": "CoffeeScript",
   "description": "CoffeeScript code snippets (+ snippets from Atom)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Ronald Loyko <hello@ronaldloyko.com>",
   "publisher": "ronaldloyko",
   "icon": "images/logo.png",
@@ -20,9 +20,5 @@
         "path": "./snippets/coffeescript.json"
       }
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ronaldloyko/vscode-snippets-coffeescript.git"
   }
 }

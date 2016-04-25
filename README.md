@@ -31,5 +31,9 @@ Contains snippets from Atom.
 ## Contributing
 Feel free to send pull requests!
 
+## Links 
+- [GitHub repository](https://github.com/ronaldloyko/vscode-snippets-coffeescript)
+- [Extension page in VS Code Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=ronaldloyko.coffeescript-snippets)
+
 ## License
 MIT
