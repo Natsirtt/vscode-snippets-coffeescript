@@ -98,7 +98,7 @@
       "description": "Require statement",
       "prefix": "req",
       "body": [
-        "${fs} = require '${fs}"
+        "${fs} = require '${fs}'"
       ]
     },
     "switch": {
