@@ -46,7 +46,7 @@
       "prefix": "foro",
       "body": [
         "for ${1:key}, ${2:value} of ${3:object}",
-        "\t${3:# body...}"
+        "\t${4:# body...}"
       ]
     },
     "forinby": {
@@ -54,7 +54,7 @@
       "prefix": "forr",
       "body": [
         "for ${1:name} in [${2:start}..${3:finish}] by ${4:step}",
-        "\t${3:# body...}"
+        "\t${5:# body...}"
       ]
     },
     "function": {
